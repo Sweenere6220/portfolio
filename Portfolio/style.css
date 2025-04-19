@@ -1,0 +1,89 @@
+body{
+    background-color:#333;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+}
+Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 1rem;
+}
+nav{
+        display:flex;
+        text-align: center;
+        justify-content: space-evenly;
+        width: 80%;
+}
+Nav>a{
+    color:lightseagreen;
+    font-size: Large;
+}
+Header img{
+    justify-content: flex-start;
+}
+
+.aboutme>h1{
+    flex-basis: 100%;
+    padding: 1rem;
+    text-align: center;
+    border-top: 4px solid purple;
+    
+}
+
+.aboutme{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.self{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-size: X-large;
+    
+}
+.self>p{
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+}
+.poetry{
+    margin: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-flow:wrap;
+    text-align: center;
+    justify-content: space-between;
+    border-top: 4px solid purple;
+}
+.poetry>h1{
+        flex-basis: 100%;
+        padding: .5rem;
+}
+
+footer{
+    border-top: 4px solid purple;
+    margin: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.photography>h1{
+    flex-basis: 100%;
+    padding: .5rem;
+    text-align: center;
+}
+.photography{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: .5rem;
+    border-top: 4px solid purple;
+}
+
